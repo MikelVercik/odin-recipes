@@ -1,0 +1,69 @@
+body {
+    max-width: 1200px;
+    color: brown;
+    background-color: orange;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+    
+}
+
+h1 {
+    margin: 0;
+    color: black;
+    background-color: orangered;
+    padding: 15px;
+}
+
+ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+button  {
+    width: 400px;
+    margin: 0%;
+    height: 600px;
+    font-size: xx-large;
+    border: none;
+}
+
+.taco button {
+    background-color: lightseagreen;
+}
+
+.chicken button {
+    background-color: lightcoral;
+}
+
+.shrimp button {
+    background-color: rgb(231, 231, 153);
+}
+
+
+button:hover {
+    background-color: lightgreen;
+}
+
+.taco,
+.chicken,
+.shrimp  {
+    display: inline-block;
+    width: 33%;
+    height: 600px;
+ 
+}
+
+
+
+
+
+.desc {
+    color: black;
+    font-size: 60px;
+    
+}
